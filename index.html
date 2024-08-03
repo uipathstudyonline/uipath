@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 95%;
+  width: 50%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bannerBG.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: rgb(0, 0, 0);
+  background-color: #dddddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.hero-text button:hover {
+  background-color: #555;
+  color: rgb(255, 255, 255);
+}
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  
+  <div class="hero-text">
+   
+    <div class="col-md-3">
+       <P class="subheading" style="font-size:10px;color:Tomato;">🌐UiPath Training & Proxy Job Support!</span> 
+      <h4 style="color:white;">We'll Ensure You Always Get<br><span style="color:Yellow;"> The Best Result</P>
+       
+      <p style="color:DodgerBlue;font-size:15px"><strong>Only For Working Professionals</strong></p>
+     
+      <h6 style="color:white;"  style="font-size:5px">Hi Dear, I have been working as <strong style="color:Yellow;">RPA Developer</strong> for a long time.
+        I would like extend my support & skills to pickup the options to
+        d <strong style="color:Yellow;">job training, freelance projects development support.</strong>
+        Please let me know if you know any such opportunities and do
+        the needful.</h6>
+
+<!-- Element to contain animated typing -->
+<span style="font-size:20px" id="typing-animation"></span>
+
+<script>
+
+// Initialize the typing animation
+const typingAnimationElement = document.getElementById('typing-animation');
+
+// Create an array of typing text
+const typingTexts = [
+'🔰✅Online live Project Development Support  ',
+'🔰Develop or Re-Develop your Project  ',
+'🔰Job Assistance   ',
+
+];
+
+// Create a function to display the typing animation for a given text
+function playTypingAnimation(text) {
+// Loop through each character and add it to the element
+for (let i = 0; i < text.length; i++) {
+  setTimeout(() => {
+  typingAnimationElement.textContent += text[i];
+  }, i * 200); // Increase the delay to slow down the typing animation
+}
+
+// Once the animation is complete, reset the text and start over
+setTimeout(() => {
+  typingAnimationElement.textContent = '';
+  playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+}, text.length * 200);
+}
+
+// Start the typing animation loop
+playTypingAnimation(typingTexts[0]);
+
+</script>
+           
+</div>
+<p ><a href="https://remotejobsupport.github.io/freelance/"  target="_blank"><strong style="width:200px; height:4px;color:Tomato;">🌐Click For More Info!</strong></a></p>
+    <div style="width:200px; height:4px">
+    <p  style="width:200px; height:4px"><button ><a href="https://wa.me/message/ALQ7RKKVO5SPB1"  target="_blank">📞Book a FREE Proxy Support</a></button></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
